@@ -27,7 +27,11 @@
                     "type": "git",
                     "url": "https://github.com/sugarlabs/chart",
                     "tag": "v13",
-                    "commit": "ad24e246e3129ff12f68a984590eb0290e6a8ca5"
+                    "commit": "ad24e246e3129ff12f68a984590eb0290e6a8ca5",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",
