@@ -44,6 +44,10 @@
                 {
                     "type": "patch",
                     "path": "chart-info.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "chart-svg.patch"
                 }
             ],
             "post-install": [
