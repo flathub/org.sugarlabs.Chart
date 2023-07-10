@@ -1,0 +1,20 @@
+diff --git a/activity/chart-activity.svg b/activity/chart-activity.svg
+index 4d06f10..01540cc 100644
+--- a/activity/chart-activity.svg
++++ b/activity/chart-activity.svg
+@@ -6,12 +6,12 @@
+ <svg
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+-   width="62"
++   width="60"
+    height="60"
+-   viewBox="0 0 62 60"
++   viewBox="0 0 60 60"
+    id="svg2"
+    xml:space="preserve"><g
+-     transform="translate(60.127119,11.292373)"
++     transform="translate(59,11.292373)"
+      id="activity-browse"
+      style="display:block">
+ 	
