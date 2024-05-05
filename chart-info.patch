@@ -11,7 +11,7 @@ diff --git a/activity/activity.info b/activity/activity.info
 index dc0f769..7ef5ed6 100644
 --- a/activity/activity.info
 +++ b/activity/activity.info
-@@ -1,12 +1,18 @@
+@@ -1,12 +1,19 @@
  [Activity]
  name = Chart
  activity_version = 13
@@ -32,6 +32,7 @@ index dc0f769..7ef5ed6 100644
  repository = https://github.com/sugarlabs/chart
 +update_contact = tch@sugarlabs.org
 +developer_name = Sugar Labs Community
++developer_id = org.sugarlabs
 +screenshots = https://raw.githubusercontent.com/sugarlabs/chart/master/screenshots/1.png https://raw.githubusercontent.com/sugarlabs/chart/master/screenshots/2.png
 -- 
 2.19.1
