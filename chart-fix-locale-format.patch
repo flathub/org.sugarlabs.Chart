@@ -1,0 +1,22 @@
+diff --git a/activity.py b/activity.py
+index 5922e8a..2d64e45 100644
+--- a/activity.py
++++ b/activity.py
+@@ -1177,7 +1177,7 @@ class ChartData(Gtk.TreeView):
+ 
+         if is_number:
+             decimals = utils.get_decimals(str(float(number)))
+-            new_text = locale.format('%.' + decimals + 'f', float(number))
++            new_text = locale.format_string('%.' + decimals + 'f', float(number))
+             model[path][1] = str(new_text)
+ 
+             self.emit('value-changed', str(path), number)
+@@ -1187,7 +1187,7 @@ class ChartData(Gtk.TreeView):
+                 number = str(_extract_value(number))
+ 
+                 decimals = utils.get_decimals(str(float(number)))
+-                new_text = locale.format('%.' + decimals + 'f', float(number))
++                new_text = locale.format_string('%.' + decimals + 'f', float(number))
+                 model[path][1] = str(new_text)
+ 
+                 self.emit('value-changed', str(path), number)
